@@ -6,7 +6,7 @@ const Videos = () => {
         {
             info.map(vid =>{
                 return(<div key={vid.id}>
-                            <iframe src={vid.url} frameborder="0" allow="autoplay" encrypted-media allowfullscreen className="video"/>
+                            <iframe title='a' src={vid.url} frameborder="0" allow="autoplay" encrypted-media allowfullscreen className="video"/>
                         </div>
                     )
             })

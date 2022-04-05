@@ -1,5 +1,4 @@
 import React from "react";
-import Videos from "./Videos";
 import { Link } from "react-router-dom";
 import { Button } from "@mui/material";
 
@@ -31,7 +30,7 @@ const Hed = ( () => {
                   
                       <div className="col-12 col-md-12">
                           <h1 id="titulo">Rick and Morty</h1>
-                          <iframe src="https://www.youtube.com/embed/t7DcmGCV8kE" frameborder="0" allow="autoplay" encrypted-media allowfullscreen className="video"/>
+                          <iframe title="h" src="https://www.youtube.com/embed/t7DcmGCV8kE" frameborder="0" allow="autoplay" encrypted-media allowfullscreen className="video"/>
                         <Link to = '/videos'><Button color="secondary"><h2> Mas videos </h2></Button></Link>
 
                     </div>

@@ -28,7 +28,8 @@ const ListaPer = () =>{
          <div className='row'>
              <div className='col-12 col-md-12 text-center'>
             <ThemeProvider theme={theme}>
-               { window.onload= () => dispatch (obtermAccion()) }
+              
+                <Button onClick={() => dispatch (obtermAccion()) } >Obtener personajes</Button>
                 <Button onClick={() => dispatch (siguienteList())}>Siguiente</Button>
                 <Button onClick={() => dispatch (antesList())}>Anterior</Button>
             </ThemeProvider>

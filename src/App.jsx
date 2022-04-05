@@ -23,7 +23,7 @@ function App() {
                   <ListaPer/> 
                   </Provider>
                     }/>
-                  <Route path='/morty-app' element = { 
+                  <Route path='/' element = { 
                   <Hed/> 
                   }/>
                 <Route path='/videos' element = { 
